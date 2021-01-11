@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/sript.js"></script>
+    <title>Contact Us</title>
+</head>
+<body class="bg1">
+    <div class="container">
+        <div class="row row1">
+            <img class="col-xl-2 col-lg-2 col-sm-2 img1 icon1" src="images/logo_transparent.png" alt="">
+            <div class="col-xl-10 col-lg-10 col-sm-10 top">
+                <ul class="menu justify-content-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="register.html">Login/Regsiter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="form" onsubmit="validateForm()" method="POST">
+            <form name="myForm" action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+                <option value="refund">Refund</option>
+                <option value="change">Change shoes</option>
+                <option value="other">Others</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+<script src="js/script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Login</title>
+</head>
+<body class="bg1">
+    <div class="container">
+        <div class="row row1">
+            <img class="col-xl-2 col-lg-2 col-md-2 col-sm-2 img1 icon1" src="images/logo_transparent.png" alt="">
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 top">
+                <ul class="menu justify-content-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="register.html">Login/Regsiter</a></li>
+                </ul>
+            </div>
+        </div>
+        <form name="myform" onsubmit="ValidateEmail()" method="POST">
+            <div class="form">
+            <h1>Login</h1>
+            Please fill in this form to login.
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <label for="email"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <hr>
+            <button type="submit" class="registerbtn">Login</button>
+            </div>
+            
+        </form>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
